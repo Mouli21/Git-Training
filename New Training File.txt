@@ -1,2 +1,2 @@
 New One
-Now using pull reuqest changes reflected or not 
+Now using pull request changes reflected or not 
