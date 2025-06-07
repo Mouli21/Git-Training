@@ -1,0 +1,25 @@
+Git & GitHub
+------------
+* Git(local)     -> version control system used for tracking the changes & colloaborate with team
+* Github(Remote) -> web based hosting service for git repo.	
+
+Git
+---
+* From eclipse > Window > Perspective > Open Perspective > Other and select Git.
+* From the project > Right Click > Show in terminal > Terminal 
+
+From reomte repo to local branch
+--------------------------------
+* git clone followed by our git code url.
+* Move to the directory by using command (cd FolerName)
+
+From local branch to remote repo
+--------------------------------
+* Create a file & do certain activities.
+* run git status -> to know about current status of the working directory
+* using git add command add the changes from working directory to staging area. (git add .)
+* From working directory to local git to move use command git commit aling with commit message (git commit -m "commit message")
+* After commit then push the local changes to remote repo using git push command
+* git push orgin main 
+* Make sure the steps to follow -> git status > git add > git status > git commit > git push
+* Whenever modified we need to use git add command.
