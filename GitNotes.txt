@@ -8,8 +8,8 @@ Git
 * From eclipse > Window > Perspective > Open Perspective > Other and select Git.
 * From the project > Right Click > Show in terminal > Terminal 
 
-From reomte repo to local branch
---------------------------------
+From reomte repo to local branch initial stage
+----------------------------------------------
 * git clone followed by our git code url.
 * Move to the directory by using command (cd FolerName)
 
@@ -23,3 +23,29 @@ From local branch to remote repo
 * git push orgin main 
 * Make sure the steps to follow -> git status > git add > git status > git commit > git push
 * Whenever modified we need to use git add command.
+
+From remote to local repo
+-------------------------
+* use git pull command to pull the latest source and merge with local repo.
+
+
+Creating repo in local & push to remote
+---------------------------------------
+* Create the folder / package in the project.
+* Inside the folder create files and save.
+* Now in the terminal use git init command to initiate of creating a local repository
+* Make sure your terminal control where it lies.
+
+* use git status > git add > git commit 
+* git push will not work because this is different folder / package so we need to connect to that folder.
+
+* Create a new repo in remote.
+* After create in eclipse terminal use command to connect to new remote repo (git remote add origin url) 
+* to change the branch name give git branch -M "Branch Name"
+* to check the current branch use command (git branch)
+
+Branching Concept
+-----------------
+* git branch -a command is used to check how many branches available in the remote repo.
+* Create a new branch in remote repo.
+* After creating what all changes available in main branch will copy the same to another branch as well.
