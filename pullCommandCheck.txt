@@ -1,0 +1,1 @@
+Pulling the resource from remote to local
