@@ -44,8 +44,22 @@ Creating repo in local & push to remote
 * to change the branch name give git branch -M "Branch Name"
 * to check the current branch use command (git branch)
 
-Branching Concept
------------------
+Branching & merging Concept
+---------------------------
 * git branch -a command is used to check how many branches available in the remote repo.
 * Create a new branch in remote repo.
 * After creating what all changes available in main branch will copy the same to another branch as well.
+* changing from one branch to another -> git checkout branchName
+* In sub branch if any files added and moved to remote repo those added file will visible only to the sub branch
+* Same as like in eclipse also only for the particular branch that file will show.
+* git-diff command is used to compare the difference between two branches.(git diff sub-branch)
+
+
+* Now from main branch use git merge subbranchname command to merge your sub branch with main branch (git merge sub-branch)
+
+Git pull request
+----------------
+* In live project, we don't have access to merge with main branch so we need to raise pull request.
+* Click pull request > New Pull request > select the brach which need to be compared.
+* Create pull request > Add description > create pull request
+* Now manager will get the request he will review & approve.
