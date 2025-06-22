@@ -63,3 +63,4 @@ Git pull request
 * Click pull request > New Pull request > select the brach which need to be compared.
 * Create pull request > Add description > create pull request
 * Now manager will get the request he will review & approve.
+
