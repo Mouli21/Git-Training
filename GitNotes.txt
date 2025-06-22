@@ -64,3 +64,4 @@ Git pull request
 * Create pull request > Add description > create pull request
 * Now manager will get the request he will review & approve.
 
+Add some more topics which you learned
